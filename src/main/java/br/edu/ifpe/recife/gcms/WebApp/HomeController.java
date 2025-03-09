@@ -39,7 +39,7 @@ public class HomeController {
 
   public @ResponseBody String greetingCarolinaFalhaTeste() {
 
-    return "Pratica 5 - falhando!!"; 
+    return "Pratica 5 - Teste sucesso!!"; 
   }
   
 }  
