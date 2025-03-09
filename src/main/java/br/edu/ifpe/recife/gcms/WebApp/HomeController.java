@@ -35,4 +35,11 @@ public class HomeController {
     return "Pratica 4 - Carolina!!"; 
   }
   
+  @RequestMapping("/carolina_falhateste") 
+
+  public @ResponseBody String greetingCarolinaHotfix() {
+
+    return "Pratica 5 - Falha teste!!"; 
+  }
+  
 }  
