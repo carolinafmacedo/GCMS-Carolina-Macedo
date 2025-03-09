@@ -37,9 +37,9 @@ public class HomeController {
   
   @RequestMapping("/carolina_falhateste") 
 
-  public @ResponseBody String greetingCarolinaHotfix() {
+  public @ResponseBody String greetingCarolinaFalhaTeste() {
 
-    return "Pratica 5 - Falha teste!!"; 
+    return "Pratica 5 - falhando!!"; 
   }
   
 }  
